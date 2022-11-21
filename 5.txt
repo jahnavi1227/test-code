@@ -1,0 +1,26 @@
+#To design a web crawler and save images and texts from the website.
+
+WEB CRAWL : 
+	Basically, a web crawler is a software program that generally browswe WWW (World Wide Web).
+Requirements for web crawl
+1) Scalablitity: 
+	For web crawler, the system should be scalabe, so that it can go through the entire site.
+2) Extensibility:
+	This requirement is needed beacuse there can be features or functionalities added to the website. 
+
+DESIGN : 
+Before designing a crawler, one must know the pupose of crawler. 
+Crawler which we are designing is to go through HTML pages and store
+1. Images
+2. Texts
+
+Steps: 
+1. Select the url of the image that you want to save.
+2. On selcting the image, the crawl bot shows to the number of similar images to the selected image.
+3. Now this helps in easily storing or saving the images that are required in one go.
+
+COMPONENTS : 
+1. Python 
+2. HTML 
+3. System
+4. Scrapy
